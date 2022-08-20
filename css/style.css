@@ -4,7 +4,7 @@
     padding : 0;
     text-decoration: none;
     list-style-type: none;
-    font-family:  'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Impact Normal', Arial, sans-serif;
 }
 
 /* HEADER */
@@ -36,6 +36,7 @@ header{
     color : #c4c4c4;
 
 }
+
 /* PIZZA */
 .container-row{
     display: flex;
@@ -133,6 +134,10 @@ h2{
     margin: 10px;
     font-family: 'pacifico';
 }
+li{
+    display: flex;
+    align-items: center;
+}
 li img{
     width: 30px;
     height: 30px;
@@ -151,6 +156,7 @@ thead th{
     padding : 5px;
     text-align: center;
 }
+
 /* CONTACTER */
 .container-contact{
     display: flex;
@@ -166,6 +172,8 @@ thead th{
 }
 .container-contact span{
     margin : 10px;
+    display: flex;
+    align-items: center;
 }
 /* FOOTER */
 footer{
@@ -189,5 +197,19 @@ footer p{
     }
     .container-contact{
         width: 100%;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-item{
+        padding : 10px;
+    }
+    .tittle-one{
+        font-size: 50px;
+    }
+    .tittle-two{
+        font-size: 50px;
+        margin-top: -50px;
     }
 }
