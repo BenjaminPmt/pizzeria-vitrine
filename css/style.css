@@ -4,6 +4,7 @@
     padding : 0;
     text-decoration: none;
     list-style-type: none;
+    font-family:  'Helvetica Neue', Arial, sans-serif;
 }
 
 /* HEADER */
@@ -89,7 +90,6 @@ header{
  width: 400px;
  height: 400px;
  cursor: pointer;
- /* background-color: black; */
 }
 
 .grid-img{
@@ -121,9 +121,13 @@ header{
     height: 300px;
     background-color: #d2c4b3;
     top: 25%;
-    animation: apparation 0.8s ease-out;
-   
+    opacity: 0;
+    transition: 0.8s;
 }
+.ingredient:hover{
+    opacity: 1;
+}
+
 h2{
     text-align: center;
     margin: 10px;
@@ -134,25 +138,6 @@ li img{
     height: 30px;
     margin : 7px;
 }
-
-@keyframes apparation{
-    from{
-        opacity: 0;
-        transform: translateY(0px);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-.container-ingredient .ingredient{
-    display: none;
-    
-}
-.container-ingredient:hover .ingredient{
-    display: block;
-}
-
 
 /* HORAIRES */
 td{
@@ -190,6 +175,7 @@ footer p{
     margin-bottom: 0;
 }
 
+/* MEDIA QUERIES */
 @media (max-width : 950px) {
     .presentation-tittle{
         width: 100%;
