@@ -191,10 +191,10 @@ footer p{
     .presentation-tittle p {
         text-align: justify;
     }
-    .container-row{
+    /* .container-row{
         flex-direction : column;
         align-content: center;
-    }
+    } */
     .container-contact{
         width: 100%;
     }
@@ -211,5 +211,53 @@ footer p{
     .tittle-two{
         font-size: 50px;
         margin-top: -50px;
+    }
+    header{
+        height: 50vh;
+    }
+    .grid-img{
+        width: 300px;
+        height: 300px;
+        cursor: pointer;
+    }
+    .grid-item{
+        width: 300px;
+        height: 300px;
+       }
+    .ingredient{
+        width: 300px;
+        height: 225px;  
+    }
+    li img{
+        width: 18px;
+        height: 18px;
+    }
+    .grille{
+        grid-template-columns: repeat(auto-fill, 300px);
+    }
+    
+}
+
+@media (min-width : 951px) and (max-width : 1058px){
+
+    .grille{
+        grid-template-columns: repeat(auto-fill, 300px);
+    }
+    .grid-item{
+        width: 300px;
+        height: 300px;
+    }
+    .grid-img{
+        width: 300px;
+        height: 300px;
+        cursor: pointer;
+    }
+    .ingredient{
+        width: 300px;
+        height: 225px;  
+    }
+    li img{
+        width: 18px;
+        height: 18px;
     }
 }
