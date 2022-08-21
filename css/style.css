@@ -191,10 +191,10 @@ footer p{
     .presentation-tittle p {
         text-align: justify;
     }
-    /* .container-row{
+    .container-row{
         flex-direction : column;
         align-content: center;
-    } */
+    }
     .container-contact{
         width: 100%;
     }
