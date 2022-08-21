@@ -184,7 +184,7 @@ footer p{
 }
 
 /* MEDIA QUERIES */
-@media (max-width : 950px) {
+@media (max-width : 1058px) {
     .presentation-tittle{
         width: 100%;
     }
@@ -237,7 +237,7 @@ footer p{
     }
     
 }
-
+/* 
 @media (min-width : 951px) and (max-width : 1058px){
 
     .grille{
@@ -260,4 +260,4 @@ footer p{
         width: 18px;
         height: 18px;
     }
-}
+} */
